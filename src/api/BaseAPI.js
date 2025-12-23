@@ -1,4 +1,5 @@
 import { expect } from '@playwright/test';
+import { step } from '../utils/step';
 
 export class BaseAPI {
   constructor(request, baseURL) {

@@ -1,5 +1,4 @@
 import { BaseAPI } from './BaseAPI';
-import { step } from '../utils/step';
 
 export class TodosAPI extends BaseAPI {
   async getAllTodos() {
